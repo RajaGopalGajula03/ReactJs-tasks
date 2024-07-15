@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats Task</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+        .div1 {
+            background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+            width: 100vw;
+            height: 100vh;
+            color: white; 
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            font-family: 'Roboto', sans-serif;
+            flex-direction: column;
+        }
+        .profileDiv
+        {
+            background-color: #cffafe;
+            width: 500px;
+            height: 500px;
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            font-family: 'Roboto', sans-serif;
+            flex-direction: column;
+        }
+        h1
+        {
+            color: #0f172a;
+        }
+        .p1,.heading2
+        {
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const element = (
+            <div className="div1">
+                <h1>Congratulations</h1>
+                <div className="profileDiv">
+                    <img className="profileImg" src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png" alt="profileImage" />
+                    <h4 className="heading2">Kiran V</h4>
+                    <p className="p1">Vishnu institue of Computer Education and Technology.</p>
+                    <p className="p1">Bhimavaram</p>
+                    <img className="profileImg" src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png" alt="WatchImage"/>
+                </div>
+            </div>
+        )
+        ReactDOM.render(element,document.getElementById("root"));
+    </script>
+</body>
+</html>
