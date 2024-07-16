@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%; 
+    width: 100%;
+}
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    margin: 10px;
+}
+.latest
+{
+    width: calc(100vw-200px);
+    height: 160px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content
+{
+    color: blueviolet;
+    padding: 20px 0px 0px 20px;
+}
+button
+{
+    border-color: blueviolet;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 5px;
+    /* border: none; */
+}
+.graphDesign {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    /* align-content: flex-end; */
+}
+
+.graph1, .graph2, .graph3, .graph4, .graph5, .graph6, .graph7, .graph8, .graph9, .graph10,.graph11,.graph12,.graph13,.graph14,.graph15{
+    width: 20px;
+    height: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.graph1 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 50px;
+    width: 200px;
+}
+
+.graph2 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 150px;
+}
+
+.graph3 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 200px;
+}
+.graph4 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 80px;
+}
+.graph5 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 120px;
+}
+.graph6 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 180px;
+}
+.graph7 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 110px;
+}
+.graph8 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 100px;
+}
+.graph9 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 150px;
+}
+.graph10 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 70px;
+}
+.graph11 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 150px;
+}
+.graph12 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 100px;
+}
+.graph13 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 120px;
+}
+.graph14 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 100px;
+}
+.graph15 {
+    background: linear-gradient(to top, rgb(238, 73, 197), rgb(255, 192, 234));
+    background-size: 40px;
+    width: 150px;
+}
+
+
+.newdesign
+{
+    margin-top: -70px;
+}
+
+
+/* insiders */

@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%; 
+    width: 100%;
+}
+.main-div {
+    background-image: url("https://c1.wallpaperflare.com/preview/574/374/404/star-night-sky-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+}
+.heading1
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.like,.comment,.share
+{
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+}

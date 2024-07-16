@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reusable Banner with Graph</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    gap: 20px; /* Space between content and graph */
+}
+
+.banner-logo {
+    max-width: 100px;
+}
+
+.banner-heading {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.banner-subtext {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #282c34;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.banner-button:hover {
+    background-color: #4fa3c6;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .banner-heading {
+        font-size: 1.5em;
+    }
+
+    .banner-subtext {
+        font-size: 1em;
+    }
+
+    .banner-button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .banner-graph {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.banner-graph {
+    flex-shrink: 0; /* Prevent the graph from shrinking */
+    width: 200px; /* Set a fixed width for the graph */
+}
+
+.graph-container {
+    background: #1c1f24; /* Dark background for the graph */
+    border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+    padding: 10px;
+    height: 150px; /* Fixed height for the graph container */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.graph-bar {
+    width: 20%;
+    background: #61dafb;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-content">
+            <img src="logo.png" alt="Logo" class="banner-logo">
+            <h1 class="banner-heading">Welcome to Our Site!</h1>
+            <p class="banner-subtext">Check out our latest offers and updates.</p>
+            <a href="#" class="banner-button">Learn More</a>
+        </div>
+        <div class="banner-graph">
+            <div class="graph-container">
+                <!-- Example graph with simple CSS -->
+                <div class="graph-bar" style="height: 80%;"></div>
+                <div class="graph-bar" style="height: 60%;"></div>
+                <div class="graph-bar" style="height: 40%;"></div>
+                <div class="graph-bar" style="height: 20%;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
