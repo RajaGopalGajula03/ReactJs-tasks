@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;    
+}
+.main-div
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgb(240, 108, 130),rgb(102, 212, 185));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading1
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.p1
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 15px;
+}
+.btn
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+.p2
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
