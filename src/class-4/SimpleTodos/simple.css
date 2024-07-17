@@ -1,0 +1,68 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;    
+}
+
+.main-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightpink;
+    padding: 20px;
+}
+.todo-div
+{
+    width: 700px;
+    padding: 100px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+    border-radius: 10px;
+    /* margin-bottom: -50px; */
+}
+.todoContainer
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: flex-start;
+    margin-top: 5px;
+}
+.todoTitle
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    /* margin-top: 10px; */
+}
+.heading1
+{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: orange;
+    font-weight: 700;
+    font-size: 50px;
+}
+.deleteTodo{
+    background-color: white;
+    border: 1px solid rgb(250, 26, 149);
+    color: rgb(228, 21, 159);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.todoName
+{
+    font-weight: 500;
+    font-size: 15px;
+}

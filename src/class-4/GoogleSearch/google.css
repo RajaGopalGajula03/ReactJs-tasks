@@ -1,0 +1,88 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-image {
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.suggestions-container {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #fff; /* Adding background color to make the shadow more visible */
+  border-radius: 8px; /* Optional: Adding border-radius for rounded corners */
+}
+
+.search-input {
+  width: calc(100% - 40px); /* Adjusting width to accommodate the icon */
+  padding: 10px 10px 10px 40px; /* Adding padding on the left for the icon */
+  font-size: 16px;
+  margin-bottom: 10px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  border: none;
+  position: relative;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.arrow {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.search-icon {
+  position: absolute;
+  left: 5px; /* Aligning the icon to the left */
+  top: 50%;
+  transform: translateY(-50%);
+  color: grey;
+  color: blue;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.suggestion-item
+{
+  color: blueviolet;
+}
