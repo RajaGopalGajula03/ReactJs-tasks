@@ -1,0 +1,97 @@
+/* Styles for the PlayStore component */
+
+.heading1 {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.playstore {
+    width: 100%;
+    padding: 50px;
+    background-image: linear-gradient(lightblue, lightpink);
+}
+
+.search-input {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.normal {
+    border: none;
+    background: none;
+    color: darkgrey;
+    border-bottom: 1px solid darkgray;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.active {
+    border: none;
+    background: none;
+    border-bottom: 1px solid blue;
+    color: blue;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.tab-item-container {
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.list1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.card {
+    margin:10px;
+    width: calc(100% - (25%-20px)); /* 4 cards per row with margins */
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.card h1{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.appName {
+    font-size: 20px;
+}
+
+.appImage
+{
+    margin-top: 20px;
+}
