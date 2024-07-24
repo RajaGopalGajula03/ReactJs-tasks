@@ -1,0 +1,63 @@
+.crypto-list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 50px;
+}
+.crypto-heading
+{
+    color: #00e7ff;
+}
+.crypto-image
+{
+    height: 300px;
+    margin-bottom: 30px;
+}
+thead
+{
+    background-color: #092e33;
+    color: white;
+
+}
+th{
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+table
+{
+    border: 3px solid #00e7ff;
+    border-radius: 10px;
+    width: 100%;
+    /* margin: 50px 150px; */
+    margin-bottom: 50px;
+    font-family: Roboto;
+}
+.table-div
+{
+    width: 1000px;
+    /* margin: 0px 100px; */
+}
+.currency-logo
+{
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.title-text
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.usd,.euro
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}

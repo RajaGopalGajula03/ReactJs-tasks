@@ -1,0 +1,39 @@
+.navbar .nav-link
+{
+    color: #6d396b;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar .p1
+{
+    color: #6d396b;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home-div,.about-div,.contact-div,.notfound-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.home-image,.about-image,.contact-image,.notfound-image
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.home-text,.about-text,.contact-text,.notfound-text
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #6d396b;
+}
+.about-content{
+    font-weight: 500;
+    font-size: 30px;
+    color: #555555;
+}

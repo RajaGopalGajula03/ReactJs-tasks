@@ -1,0 +1,90 @@
+.navbar .nav-link
+{
+    color: #6d396b;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar .p1
+{
+    color: #6d396b;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home-div,.about-div,.contact-div,.notfound-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.home-image,.about-image,.contact-image,.notfound-image
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.home-text,.about-text,.contact-text,.notfound-text
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #6d396b;
+}
+.about-content{
+    font-weight: 500;
+    font-size: 30px;
+    color: #555555;
+}
+.user-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-image
+{
+    width: 200px;
+    height: 200px;
+}
+.user-heading
+{
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 30px;
+}
+.user-text
+{
+    font-weight: 500;
+    color: #555555;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.blog-list-div
+{
+    padding: 20px 100px;
+}
+.blogs-div
+{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    border: 1px solid #9aa5b1;
+    width: 100%;
+}
+.title-div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.description-text
+{
+    color: #616e7c;
+    font-weight: 500;
+    font-size: 15px;
+}
